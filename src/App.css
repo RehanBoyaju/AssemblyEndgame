@@ -57,7 +57,7 @@ header>p {
     background-color: #10A95B;
 }
 .lost {
-    background-color: red;
+    background-color: #BA2A2A;;
     
 }
 .msg{
@@ -130,6 +130,10 @@ header>p {
     align-items: center;
     justify-content: center;
 }
+.fill{
+    color: #EC5D49;
+
+}
 
 .keyboard {
     margin-block: 30px;
@@ -193,11 +197,11 @@ header>p {
 
 
 .correct-key {
-    background-color: green;
+    background-color: #10A95B;
 }
 
 .wrong-key {
-    background-color: red;
+    background-color: #EC5D49;
 }
 
 

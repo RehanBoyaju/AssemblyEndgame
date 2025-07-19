@@ -70,13 +70,15 @@ export default function AssemblyEndgame() {
         }
       </section>
 
+
       <section className="letters-container">
         {
           letters.map((letter, index) => (
-            <Letter key={index} letter={letter} isGuessed={guessedLetters.includes(letter)} />
+            <Letter key={index} letter={letter} isGuessed={guessedLetters.includes(letter)} isGameLost={isGameLost}/>
           ))
         }
       </section>
+
 
       {/* Combined visually hidden aria-live region for status updates. */}
       <section className="sr-only" aria-live="polite" role="status">
